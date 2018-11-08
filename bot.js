@@ -71,7 +71,6 @@ bot7.on('message', message => {
 if (command == "fs7") {
   if(!message.author.id === "505101712839671838") return message.reply(`Just <@505101712839671838> Can use us xD!`);
 message.channel.send(args.join("  "))
-    message.delete();
   }
 });
 
@@ -130,7 +129,6 @@ bot8.on('message', message => {
 if (command == "fs8") {
   if(!message.author.id === "505101712839671838") return message.reply(`Just <@505101712839671838> Can use us xD!`);
 message.channel.send(args.join("  "))
-    message.delete();
   }
 });
 
@@ -186,7 +184,6 @@ bot9.on('message', message => {
 if (command == "fs9") {
   if(!message.author.id === "505101712839671838") return message.reply(`Just <@505101712839671838> Can use us xD!`);
 message.channel.send(args.join("  "))
-    message.delete();
   }
 });
 
