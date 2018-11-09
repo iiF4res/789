@@ -78,7 +78,7 @@ message.channel.send(args.join("  "))
 bot7.on('message', message => {
     if(message.content.startsWith(`JoinVoice`)){
         const channel = message.guild.channels.find('name', "Quran");
-        channel.join();
+        channel.leave();
         message.channel.send(`DONE!`)
     }
 });
@@ -145,7 +145,7 @@ message.channel.send(args.join("  "))
 bot8.on('message', message => {
     if(message.content.startsWith(`JoinVoice`)){
         const channel = message.guild.channels.find('name', "Quran");
-        channel.join();
+        channel.leave();
         message.channel.send(`DONE!`)
     }
 });
@@ -209,7 +209,7 @@ message.channel.send(args.join("  "))
 bot9.on('message', message => {
     if(message.content.startsWith(`JoinVoice`)){
         const channel = message.guild.channels.find('name', "Quran");
-        channel.join();
+        channel.leave();
         message.channel.send(`DONE!`)
     }
 });
