@@ -75,6 +75,15 @@ message.channel.send(args.join("  "))
 });
 
 
+bot7.on('message', message => {
+    if(message.content.startsWith(`JoinVoice`)){
+        const channel = message.guild.channels.find('name', "Quran");
+        channel.join();
+        message.channel.send(`DONE!`)
+    }
+});
+
+
 
 bot7.login(process.env.FB7);
 
@@ -133,6 +142,15 @@ message.channel.send(args.join("  "))
 });
 
 
+bot8.on('message', message => {
+    if(message.content.startsWith(`JoinVoice`)){
+        const channel = message.guild.channels.find('name', "Quran");
+        channel.join();
+        message.channel.send(`DONE!`)
+    }
+});
+
+
 
 bot8.login(process.env.FB8);
 
@@ -185,6 +203,15 @@ if (command == "fs9") {
   if(!message.author.id === "505101712839671838") return message.reply(`Just <@505101712839671838> Can use us xD!`);
 message.channel.send(args.join("  "))
   }
+});
+
+
+bot9.on('message', message => {
+    if(message.content.startsWith(`JoinVoice`)){
+        const channel = message.guild.channels.find('name', "Quran");
+        channel.join();
+        message.channel.send(`DONE!`)
+    }
 });
 
 
